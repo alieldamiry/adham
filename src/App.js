@@ -9,13 +9,13 @@ function App() {
     <div className="App">
       <Container>
         <Grid container>
-          <Grid item xs={4}>
+          <Grid item md={4}>
             <AppCard />
           </Grid>
-          <Grid item xs={4}>
+          <Grid item md={4}>
             <AppCardArabic />
           </Grid>
-          <Grid item xs={4}>
+          <Grid item md={4}>
             <AppCardArabic2 />
           </Grid>
         </Grid>
